@@ -106,7 +106,7 @@ main > section {
     align-items: center;
 }
 
-#result-section > #description > h3{
+#result-section > #description > h2{
     padding-bottom: 12px;
 
     font-size: 1.8rem;
