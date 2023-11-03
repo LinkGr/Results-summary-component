@@ -71,7 +71,7 @@ main > section {
     border-radius: 25px;
 }
 
-#result-section > h2 {
+#result-section > h1 {
     font-size: 1.35rem;
     color: var(--transparent-white);
 }
