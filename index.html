@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Results summary component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <link rel="stylesheet" href="./css/style.css"/>
+    <link rel="stylesheet" href="./css/mobile-style.css" media="(max-width: 440px)"/>
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section id="result-section">
+        <h2>Your Result</h2>
+
+        <section id="grades">
+          <p id="grade-result">76</p>
+          <p id="grade-total">of 100</p>
+        </section>
+
+        <section id="description">
+          <h3>Great</h3>
+          <p>
+            You scored higher than 65% of the people who have taken these tests.
+          </p>
+        </section>
+      </section>
+
+      <section id="summary-section">
+        <h2>Summary</h2>
+
+        <section id="status-container">
+          <section class="status-box">
+            <div>
+              <img src="./assets/images/icon-reaction.svg" />
+              <span class="status-title">Reaction</span>
+            </div>
+            <span class="status-grade"
+              >80 <span class="status-grade-total"> / 100</span></span
+            >
+          </section>
+
+          <section class="status-box">
+            <div>
+              <img src="./assets/images/icon-memory.svg" /><span
+                class="status-title"
+                >Memory</span
+              >
+            </div>
+            <span class="status-grade"
+              >92 <span class="status-grade-total"> / 100</span></span
+            >
+          </section>
+
+          <section class="status-box">
+            <div>
+              <img src="./assets/images/icon-verbal.svg" /><span
+                class="status-title"
+                >Verbal</span
+              >
+            </div>
+            <span class="status-grade"
+              >61 <span class="status-grade-total"> / 100</span></span
+            >
+          </section>
+
+          <section class="status-box">
+            <div>
+              <img src="./assets/images/icon-visual.svg" /><span
+                class="status-title"
+                >Visual</span
+              >
+            </div>
+            <span class="status-grade"
+              >72 <span class="status-grade-total"> / 100</span></span
+            >
+          </section>
+        </section>
+
+        <button type="button" id="submit-button">Continue</button>
+      </section>
+    </main>
+
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </footer>
+  </body>
+</html>
